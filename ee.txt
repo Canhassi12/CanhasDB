@@ -1,0 +1,29 @@
+// é um banco onde eu consigo armazenar "uma posição" e o valor que tem nela 
+
+// Get - posso buscar meus valores salvos a partir de uma chave do campo
+// Set - a chave é definida com um novo valor, para que futuramente ela possa ser acessada novamente.
+// Delete - remove o valor associado a uma key, para caso venha ser acessado no futuro, retornara null.
+
+
+{[x:string]: }
+
+Declaration = [String, String];
+Dictionary = Declaration[]
+
+
+GET - irei acessar o arquivo passando a ele a minha key, que me retornara meu value.
+
+SET - irei passar uma key, caso ela tenha um valor, eu sobreescreva esse valor com um novo valor passado, caso não tenha apenas escrevo.
+
+DELETE - irei 'remover' os valores de uma key, o que deixaria este mesmo inexistente.
+
+Objeto - um 'modelo/estrutura' que ja é prédefinido os seus campos e os tipos deles.
+
+um dicionario tem paralavraS, ou seja, varias palavraS, palavras == key.
+
+um dicionario tem varias definições...
+
+Declaraçao - Uma declaração é o ato de declarar, ou seja, dar um significado para uma palavra.
+
+
+
